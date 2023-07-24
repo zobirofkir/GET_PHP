@@ -1,0 +1,8 @@
+FROM phpmyadmin/phpmyadmin
+
+ENV PMA_HOST=db
+ENV MYSQL_ROOT_PASSWORD=
+ENV PMA_USER=admin
+ENV PMA_PASSWORD=admin
+
+EXPOSE 80
